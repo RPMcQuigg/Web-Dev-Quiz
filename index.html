@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Dev Quiz</title>
+    <link rel="stylesheet" href="./assets/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="start-page">
+            <h1>Welcome to the Coding Quiz</h1>
+            <button id="start-button">Start Quiz</button>
+        </div>
+
+        <div class="question-page">
+            <h2>Question 1</h2>
+            <p>What does HTML stand for?</p>
+            <label><input type="radio" name="q1" value="A"> A. Hyper Text Markup Language</label><br>
+            <label><input type="radio" name="q1" value="B"> B. Hyper Transfer Markup Language</label><br>
+            <label><input type="radio" name="q1" value="C"> C. Hyperlink and Text Markup Language</label><br>
+            <button id="next-button">Next</button>
+        </div>
+        <div class="question-page">
+            <h2>Question 2</h2>
+            <p>What does API stand for?</p>
+            <label><input type="radio" name="q2" value="A"> A. Application Programming Information</label><br>
+            <label><input type="radio" name="q2" value="B"> B. Application Programming Interface</label><br>
+            <label><input type="radio" name="q2" value="C"> C. Advanced Programming Interface</label><br>
+            <button id="next-button">Next</button>
+        </div>
+
+        <div class="question-page">
+            <h2>Question 3</h2>
+            <p>What Third Party API is NOT loaded in to application as a stylesheets?</p>
+            <label><input type="radio" name="q3" value="A"> A. Bootstrap</label><br>
+            <label><input type="radio" name="q3" value="B"> B. JQuery</label><br>
+            <label><input type="radio" name="q3" value="C"> C. JQuery UI</label><br>
+            <button id="next-button">Next</button>
+        </div>
+
+        <div class="question-page">
+            <h2>Question 4</h2>
+            <p>What is a cloud based system is used to store branches of and applications code called?</p>
+            <label><input type="radio" name="q4" value="A"> A. Coding Clouds</label><br>
+            <label><input type="radio" name="q4" value="B"> B. Repository</label><br>
+            <label><input type="radio" name="q4" value="C"> C. Retainer</label><br>
+            <button id="next-button">Next</button>
+        </div>
+
+        <div class="question-page">
+            <h2>Question 5</h2>
+            <p>To retrieve a single branch of code from a repo what Git command would you use</p>
+            <label><input type="radio" name="q5" value="A"> A. Git Push</label><br>
+            <label><input type="radio" name="q5" value="B"> B. Git Fetch</label><br>
+            <label><input type="radio" name="q5" value="C"> C. Git Pull</label><br>
+            <button id="next-button">Next</button>
+        </div>
+
+        <div class="score-page" style="display: none;">
+            <h1>Your Score: <span id="final-score">0</span></h1>
+            <button id="retake-button">Retake Quiz</button>
+            <button id="high-score-button">Add to High Score</button>
+        </div>
+    </div>
+
+    <script src="./assets/script.js"></script>
+</body>
+</html>
